@@ -426,7 +426,7 @@ int annotate( char *  input_dir, char* csv_file, float ratio, string init_rectan
 
           } else if(k == 127  || k ==  65288) {
 
-            cout << "Erease" << endl;
+            cout << "Erase" << endl;
             cc.r = RotatedRect(Point2f(0,0),Size(10,10),0) ;
             displayRR(cc);
 
